@@ -1,0 +1,12 @@
+:root {
+  --font-base: sans-serif;
+}
+
+body {
+  font-family: var(--font-base);
+}
+
+.container {
+  width: min(52rem, 100vw - 4rem);
+  margin-inline: auto;
+}

@@ -1,0 +1,17 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    justify-content: space-between;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-left: 1rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.hidden {
+    display: none;
+}
